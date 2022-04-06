@@ -1,0 +1,50 @@
+@media screen and (max-width: 425px){
+    nav{
+        padding-top: 5px;
+        height: 10vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+    nav .menu-nav ul{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    nav .connexion button{
+        display: none;
+    }
+
+    .raison .raison-paragraphe{
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .raison .raison-paragraphe div{
+        padding: 10%;
+    }
+
+    .question .question-freq{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .la-question1{
+        padding-right: 0;
+    }
+    .la-question2{
+        padding-left: 0;
+    }
+    .la-question3{
+        padding-right: 0;
+    
+    }
+    .la-question4{
+        padding-left: 0;
+    }
+}
+

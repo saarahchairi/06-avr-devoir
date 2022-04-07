@@ -105,6 +105,7 @@ nav .connexion button{
 
 .about{
     height: 30vh;
+    padding-top: 50px;
 }
 .about .text-intro{
     text-align: center;

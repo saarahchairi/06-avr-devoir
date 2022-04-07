@@ -46,5 +46,43 @@
     .la-question4{
         padding-left: 0;
     }
+    footer .footer-info{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .menu-footer{
+        background-color: black;
+        height: 10vh;
+        width: 100%;
+        color: #999999;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .menu-footer ul{
+        padding: 0;
+        justify-content: center;
+    }
+    .menu-footer p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .raison .raison-paragraphe{
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .raison .raison-paragraphe div{
+        padding: 5%;
+    }
+    
+    footer .footer-info{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
 }
 

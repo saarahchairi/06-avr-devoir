@@ -1,7 +1,8 @@
 @media screen and (max-width: 425px){
     nav{
+        position: relative;
         padding-top: 5px;
-        height: 10vh;
+        height: 15vh;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -20,6 +21,11 @@
         display: none;
     }
 
+    .about{
+        height: 50vh;
+        padding: 10%;
+    }
+
     .raison .raison-paragraphe{
         padding: 5%;
         display: grid;
@@ -29,6 +35,13 @@
         padding: 10%;
     }
 
+    .question{
+        padding: 10%;
+        text-align: justify;
+    }
+    .question h2{
+        margin-top: 0;
+    }
     .question .question-freq{
         display: flex;
         flex-wrap: wrap;
@@ -46,9 +59,13 @@
     .la-question4{
         padding-left: 0;
     }
+
     footer .footer-info{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    footer .footer-info .widget{
+        text-align: justify;
     }
 
     .menu-footer{
@@ -63,9 +80,6 @@
     .menu-footer ul{
         padding: 0;
         justify-content: center;
-    }
-    .menu-footer p{
-        text-align: center;
     }
 }
 
@@ -83,6 +97,14 @@
         display: grid;
         grid-template-columns: 1fr;
     }
-    
 }
 
+@media screen and (max-width: 320px){
+    .menu-footer p{
+        font-size: 12px;
+    }
+    #about{
+        height: 50vh;
+    }
+    
+}

@@ -7,7 +7,7 @@ body{
 nav{
     position: fixed;
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     background: rgba(0,0,0,.8);
     border-bottom: 1px solid rgba(255,255,255,0.15);
     display: grid;
@@ -19,6 +19,7 @@ nav .logo-nav{
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
+    align-content: center;
     height: 5vh;
 }
 nav .menu-nav{
@@ -78,6 +79,7 @@ nav .connexion button{
 }
 .intro .titre-intro h1{
     text-align: center;
+    font-weight: 300;
     margin: 0;
     color: white;
 }
@@ -103,20 +105,24 @@ nav .connexion button{
 
 .about{
     height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .about .text-intro{
     text-align: center;
+}
+.about .text-intro h1{
+    font-weight: 300;
+}
+.about .text-intro p{
+    color: grey;
 }
 
 .raison{
     background-color: #F7F5F4;
     padding-top: 50px;
 }
-.raison h3{
+.raison h2{
     text-align: center;
+    font-weight: 300;
 }
 .raison .raison-paragraphe{
     padding: 5%;
@@ -124,7 +130,7 @@ nav .connexion button{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .raison .raison-paragraphe div{
-    padding: 0 5%;
+    padding: 0 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,13 +138,12 @@ nav .connexion button{
 }
 .raison .raison-paragraphe div i{
     font-size: 100px;
+    margin-bottom: 10px;
 }
 
-.question{
-    padding: 5%;
-}
 .question h2{
     text-align: center;
+    margin-top: 100px;
 }
 .question .question-freq{
     padding: 5%;
@@ -212,6 +217,7 @@ footer .footer-info{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center;
 }
 .menu-footer ul{
     margin: 0;
